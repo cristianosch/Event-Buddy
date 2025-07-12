@@ -1,14 +1,86 @@
-# In development
 
+# Event Buddy
 
-# Sample Snack app
+Event Buddy is a mobile app built with React Native and Firebase that helps users find, favorite, and participate in local events. Users can sign up, log in, view upcoming events, and manage their profiles with ease.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+![Event Buddy Login](assets/img/login.png)
+![Event Buddy Password Recover](assets/img/pass-recover.png)
+![Event Buddy Home](assets/img/all-events.png)
+![Event Details](assets/img/event-details.png)
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## ✨ Features
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- 📅 Browse and search for upcoming events by title, location, or date
+- ❤️ Favorite events to revisit later
+- ✅ Join or cancel participation
+- 📍 View event location on Google Maps
+- 🔐 User authentication (sign up, login, password reset)
+- 👤 Profile editing and event participation tracking
+- 🔄 Real-time updates using Firebase
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## 🧰 Tech Stack
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- **React Native (Expo)**
+- **Firebase (Auth + Firestore)**
+- **React Navigation**
+- **Tailwind for React Native (via className)**
+
+## 🚀 Getting Started
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/event-buddy.git
+cd event-buddy
+```
+
+### 2. Install dependencies:
+
+```bash
+npm install
+```
+
+### 3. Run the app:
+
+```bash
+npx expo start
+```
+
+Make sure to configure your `firebaseConfig.js` with your Firebase credentials.
+
+## 🖼️ Screenshots
+
+| Search | Profile | Profile Events |
+|------|----------------|---------|
+| ![Search](assets/img/search-location.png) | ![Profile](assets/img/profile.png) | ![Profile Events](assets/img/profile-events.png) |
+
+## 📁 Folder Structure
+
+```
+assets/
+  img/
+    home.png
+    event-details.png
+    profile.png
+context/
+  AuthContext.js
+screens/
+  Home.js
+  LoginScreen.js
+  SignupScreen.js
+  Recuperacao.js
+  PerfilScreen.js
+  EventDetails.js
+  Events.js
+firebaseConfig.js
+App.js
+styles.js
+```
+
+## 🤝 Contributing
+
+Feel free to fork the project and open pull requests. Bug fixes, improvements, and new features are welcome!
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
