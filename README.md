@@ -1,12 +1,15 @@
 
 # Event Buddy
 
-Event Buddy is a mobile app built with React Native and Firebase that helps users find, favorite, and participate in local events. Users can sign up, log in, view upcoming events, and manage their profiles with ease.
+Event Buddy is a full-featured mobile application built with React Native and Firebase, designed to help users effortlessly discover, favorite, and participate in local events. With intuitive navigation and real-time updates, users can sign up, log in, explore upcoming events, view event details, mark favorites, confirm attendance, and manage personal profiles, all within a seamless and responsive interface. Whether you're looking for something to do nearby or want to organize your event agenda, Event Buddy makes event engagement simple, social, and accessible.
 
-![Event Buddy Login](assets/img/login.png)
-![Event Buddy Password Recover](assets/img/pass-recover.png)
-![Event Buddy Home](assets/img/all-events.png)
-![Event Details](assets/img/event-details.png)
+| Login | Password | 
+|--------|---------|
+| ![Login](assets/img/login.png) | ![Password](assets/img/pass-recover.png) | 
+
+|  Home  | Details | 
+|--------|---------|
+| ![Home](assets/img/all-events.png) | ![Details](assets/img/event-details.png) | 
 
 ## ✨ Features
 
