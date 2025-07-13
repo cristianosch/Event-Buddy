@@ -84,6 +84,6 @@ styles.js
 
 Feel free to fork the project and open pull requests. Bug fixes, improvements, and new features are welcome!
 
-## 📜 License
+## 💥️ Let a Star
 
-This project is open source and available under the [MIT License](LICENSE).
+If you find this project helpful or inspiring, please consider leaving a ⭐️ to support the developer and help others discover it too!
