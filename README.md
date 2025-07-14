@@ -47,6 +47,10 @@ npm install
 
 ```bash
 npx expo start
+
+or 
+
+npx expo start --tunnel
 ```
 
 Make sure to configure your `firebaseConfig.js` with your Firebase credentials.

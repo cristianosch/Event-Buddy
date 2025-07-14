@@ -3,7 +3,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import HomeStackNavigator from "./HomeStackNavigator";
 import FavoritosScreen from "../screens/Favorites"; 
-import PerfilScreen from "../screens/Perfil";       
+import ProfileScreen from "../screens/Profile";       
 
 
 const Tab = createBottomTabNavigator();
@@ -32,7 +32,7 @@ export default function MainTabsNavigator() {
     >
       <Tab.Screen name="Home" component={HomeStackNavigator} options={{ headerShown: false }} />
       <Tab.Screen name="Favorites" component={FavoritosScreen} />
-      <Tab.Screen name="Profile" component={PerfilScreen} />
+      <Tab.Screen name="Profile" component={ProfileScreen} />
     </Tab.Navigator>
   );
 }

@@ -62,8 +62,7 @@ export default function SignupScreen({ navigation }) {
           <Text style={styles.buttonText}>Cadastrar</Text>
         </TouchableOpacity>
       </View>
-
-      {/* Link para Login abaixo do card */}
+     
       <TouchableOpacity className="mt-4" onPress={() => navigation.navigate("LoginScreen")}>
         <Text className="text-white underline font-semibold">
           Já tem conta? Aceder

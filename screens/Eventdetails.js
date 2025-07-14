@@ -32,7 +32,7 @@ export default function EventDetails() {
   const [participating, setParticipating] = useState(false);
   const [participantsCount, setParticipantsCount] = useState(0);
 
-  // Escutar alterações do evento
+  // Check for events updates
   useEffect(() => {
     const unsubscribe = onSnapshot(doc(database, "events", eventId), (docSnap) => {
       if (docSnap.exists()) {
@@ -44,7 +44,7 @@ export default function EventDetails() {
     return () => unsubscribe();
   }, [eventId]);
 
-  // Verifica favoritos e participações do usuário
+  // Check for favorites and User participation
   useEffect(() => {
     if (!user) return;
 
@@ -122,7 +122,7 @@ export default function EventDetails() {
 
   return (
     <ScrollView style={styles.container}>
-      {/* Imagem com coração */}
+      {/* Heart image */}
       <View className="relative">
         <Image source={{ uri: event.imageUrl }} style={styles.image} />
         <View className="absolute right-4 top-4 z-10">
@@ -152,7 +152,7 @@ export default function EventDetails() {
         </Text>
       </View>
 
-      {/* Nome da localização */}
+      {/* Location name */}
         <Text className="p-1 text-center text-[15px] font-bold" >
           {event.location}
         </Text>     

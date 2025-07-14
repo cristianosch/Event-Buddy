@@ -30,7 +30,7 @@ function formatDateToISO(dateBR) {
   return `${parts[2]}-${parts[1]}-${parts[0]}`;
 }
 
-export default function PerfilScreen() {
+export default function ProfileScreen() {
   const { user } = useAuth();
   const navigation = useNavigation();
   const [profile, setProfile] = useState({

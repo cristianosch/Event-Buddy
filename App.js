@@ -13,7 +13,6 @@ import AppLoading from "expo-app-loading";
 
 
 const Stack = createStackNavigator();
- // return 'light' or 'dark'
 
 function AppNavigator() {
   const { user, loading } = useAuth();

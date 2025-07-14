@@ -58,8 +58,7 @@ export default function Recuperacao({ navigation }) {
         <TouchableOpacity className="mt-5" style={styles.button} onPress={recuperarSenha}>
           <Text style={styles.buttonText}>Recuperar</Text>
         </TouchableOpacity>
-
-        {/* Link de login abaixo do botão */}
+        
         <View className="mt-4 items-center">
           <Text className="text-gray-700 mb-2">Quer tentar entrar novamente?</Text>
           <TouchableOpacity onPress={() => navigation.navigate("LoginScreen")}>
@@ -68,7 +67,7 @@ export default function Recuperacao({ navigation }) {
         </View>
       </View>
 
-      {/* Link Sign up abaixo do card */}
+      {/* Link Sign up under cards */}
       <TouchableOpacity
         className="mt-4"
         onPress={() => navigation.navigate("SignupScreen")}
